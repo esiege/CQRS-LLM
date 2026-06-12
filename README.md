@@ -281,3 +281,66 @@ Build in this order to always have something demonstrable:
 - "I scoped this to be shippable, not perfect. The domain is simple so the architecture is the point."
 - "The folder structure is intentionally a golden path — any developer could clone this and have messaging, validation, AI, and CI pre-wired."
 - "I built this to learn the patterns I'd be working with at PrePass, not just to prep for the interview."
+
+---
+
+## Target Job Description — PrePass AI Full Stack Developer
+
+**Platform Engineering Team · Fully Remote**
+
+PrePass® is North America's most utilized and technologically advanced weigh station bypass and toll payment platform. Our technologies enable safe, qualified motor carriers to bypass inspection facilities at highway speeds, saving time, fuel, and money while reducing emissions. More than 105,000 fleets subscribe over 750,000 commercial vehicles to PrePass services.
+
+### Position Summary
+
+We are adding to our Web Platform Engineering team — a small, nimble group supporting a larger engineering organization, whose mission is developer enablement for the web tier: building the shared UI foundations, standardized frontend scaffolds (golden path templates), and the composable building blocks that product teams assemble into customer-facing experiences. This team operates with an open-source maintainer mindset: other teams can contribute, but Web Platform Engineering drives quality, direction, and standards.
+
+The platform is built on a modern, service-oriented architecture with clear separation between customer-facing experiences, product feature services, and core business capabilities. On the web side, that means React static site frontends backed by a unified design system, a shared component library, and well-defined patterns for consuming .NET CQRS backends, where physical separation of write and read paths shapes how the UI fetches, caches, and renders data. Integration with the broader system flows through messaging-first patterns via NServiceBus and domain-driven service boundaries, and your job is to make those boundaries feel seamless from the browser.
+
+This is a high-autonomy, high-impact role. You will help shape the web foundation other engineers build on, the unified web/platform layer that becomes the default way teams ship customer-facing experiences. You will deliver quickly, iterate openly, and use AI-powered development tools as a core part of how you work.
+
+### Key Responsibilities
+
+**Platform Engineering & Shared Services**
+- Build and maintain shared components, internal libraries, and platform services that the broader engineering org depends on.
+- Maintain and evolve standardized service scaffolds (golden path templates) — ensuring new services start with messaging, CI/CD, and observability pre-wired.
+- Operate with an open-source maintainer mindset: clear contribution standards, good documentation, internal consumers treated as first-class users.
+- Help define and uphold platform standards: messaging-first integration, service data ownership, and proper layering across the architecture.
+
+**Full Stack Development**
+- Build React static site frontends — fast, decoupled, and independently deployable.
+- Build and extend .NET CQRS services following established service patterns and architectural standards.
+- Design and implement NServiceBus message contracts, handlers, and sagas for async business workflows.
+- Build and maintain read model projectors and query services — keeping the read path fast and purpose-built.
+- Contribute to CI/CD pipelines, observability tooling, and DevOps practices across the platform.
+
+**AI-Accelerated Development**
+- Use AI development tools — coding agents, agentic pipelines, AI-assisted scaffolding — as the default mode of working, not a novelty.
+- Drive adoption of AI-powered development workflows across the team; raise the floor for how quickly good software gets shipped.
+- Stay current with AI development tooling and bring new approaches to the team proactively.
+
+**Collaboration & Communication**
+- Partner with product managers, architects, and feature teams to align on platform direction and contribution patterns.
+- Communicate architecture decisions clearly — to engineers building on the platform and to non-technical stakeholders.
+- Document service contracts, architectural decisions, and contribution guides to enable the broader engineering community.
+
+### What We're Looking For
+
+**Mindset (Most Important)**
+- Startup energy in a professional context: you default to action, ship working software early, and refine from there.
+- Genuinely agile — you adapt process to context rather than following a framework for its own sake.
+- More interested in solving the problem than mastering any specific technology.
+- Energized by AI tools as a force multiplier — you're already using them seriously and always looking for what's next.
+
+**Technical Skills**
+- JavaScript/TypeScript proficiency is required. React experience is a strong advantage.
+- .NET / C# experience is a strong advantage. Object-oriented design fundamentals are required.
+- Understanding of or genuine interest in CQRS, event-driven architecture, and async messaging patterns.
+- Experience with RESTful API design and consumption.
+- Familiarity with CI/CD, cloud platforms (Azure preferred), and modern DevOps practices.
+- Hands-on experience using AI tools in a real development workflow — coding assistants, agentic pipelines, or prompt engineering for code generation.
+
+**Experience**
+- Mid-career to senior level: enough experience to operate independently, make sound architectural judgments, and know when to ask.
+- Demonstrated track record of shipping software — not just designing it.
+- Bachelor's degree in Computer Science, Software Engineering, or equivalent practical experience.
+- Bonus: experience maintaining or contributing to open source projects.
